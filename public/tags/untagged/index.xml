@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Untagged on Stuart Walker; random stuff</title>
+    <link>http://localhost:62293/tags/untagged/</link>
+    <description>Recent content in Untagged on Stuart Walker; random stuff</description>
+    <generator>Hugo</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 26 Aug 2024 22:29:41 +0200</lastBuildDate>
+    <atom:link href="http://localhost:62293/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test Post</title>
+      <link>http://localhost:62293/posts/test-post/</link>
+      <pubDate>Mon, 26 Aug 2024 22:29:41 +0200</pubDate>
+      <guid>http://localhost:62293/posts/test-post/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

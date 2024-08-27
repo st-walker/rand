@@ -1,4 +1,48 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = 'en-gb'
+title = 'Stuart Walker; random stuff'
 theme = 'hello-friend-ng'
+
+
+
+[params]
+
+homeSubtitle = "A website about things I'm interested in writing about"
+
+
+  [params.author]
+    name = "Stuart Walker"
+
+
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "$ cd ~"
+    logoHomeLink = "/"
+
+    logoCursorDisabled = false
+    logoCursorColor    = "#67a2c9"
+    logoCursorAnimate  = "2s"
+
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/stuartderekwalker/"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/st-walker"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:stu.der.walker@gmail.com"
+
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
